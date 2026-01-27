@@ -1,6 +1,6 @@
 ## Presentations
 
-### Intro to Bitcoin for Banking Leaders
+#### Intro to Bitcoin for Banking Leaders
 - [Presentation Deck (.pdf)](https://github.com/agbegin/bitcoin-banking/blob/main/Galoy-AndrewBeginAOBA-Feb3-Breakout3.pdf)
 - [Talking Points](AOBA-Talking-Points.html)
 
