@@ -1,4 +1,4 @@
-# The Convergence of Banking and Bitcoin
+# Projects
 
 - [AOBA Talking Points](AOBA-Talking-Points.html)
 
