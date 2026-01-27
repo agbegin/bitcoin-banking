@@ -9,8 +9,20 @@ body {
   color: #e6e6e6;
 }
 
-a { color: #8ab4f8; }
-a:hover { color: #a7c7ff; }
+/* Prevent link hover from changing layout */
+a {
+  font-size: inherit;
+  font-weight: inherit;
+  color: #8ab4f8;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  font-size: inherit;
+  font-weight: inherit;
+  color: #a7c7ff;   /* keep your hover color */
+  text-decoration: underline;
+}
 
 /* Headings */
 h1, h2, h3 {
