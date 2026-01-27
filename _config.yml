@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+title: Bitcoin Banking
+description: Notes and resources
+
+css:
+  - /assets/css/style.css
