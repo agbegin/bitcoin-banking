@@ -44,3 +44,9 @@ header p a[href*="github.com"] {
 /* header p {
   display: none !important;
 } */
+
+/* Lighten h4 headings */
+h4 {
+  color: #cfcfcf;   /* lighter than body text, softer than h2 */
+  font-weight: 600;
+}
