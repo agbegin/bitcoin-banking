@@ -1,3 +1,7 @@
+---
+layout: default
+title: Intro to Bitcoin for Banking Leaders – Speaking Points
+---
 # Intro to Bitcoin for Banking Leaders
 ## AOBA Conference Talking Points
 **Andrew Begin | CSO, Galoy | Feb 3, 2025**
