@@ -30,22 +30,17 @@ code, pre {
   color: #e6e6e6;
 }
 
-/* Soften GitHub button */
-#view-on-github {
-  background: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  font-size: 0.9rem;
-}
-/* Remove "View the Project on GitHub" block */
+
+/* Hide "View the Project on GitHub" block */
 #view-on-github {
   display: none !important;
 }
-/* Remove "View the Project on GitHub" block (jekyll-theme-minimal) */
+
+/* Hide GitHub repo link + slug, keep description */
 header p a[href*="github.com"] {
   display: none !important;
 }
 
-header p {
+/* header p {
   display: none !important;
-}
+} */
