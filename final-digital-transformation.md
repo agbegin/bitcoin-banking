@@ -1,3 +1,8 @@
+---
+layout: default
+title: Intro to Bitcoin for Banking Leaders – Speaking Points
+---
+
 # DRAFT — The Final Digital Transformation
 
 ## The transformation of money and the systems that move it

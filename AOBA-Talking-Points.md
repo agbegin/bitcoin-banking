@@ -286,28 +286,70 @@ title: Intro to Bitcoin for Banking Leaders – Speaking Points
 - The banks that offer this keep the customer in their ecosystem. The banks that don't are sending customers out the door — and handing them to competitors who will cross-sell them everything else.
 
 #### 4. Payments (Slides 56-57)
-- On-chain Bitcoin payments (like Fedwire)
-- Layer 2 Lightning Network (real-time payments)
-- Digital Bitcoin wallet (eBanking, mobile)
-- **Square:** 4M US merchants can accept BTC via Lightning (Nov '25)
-- **SoFi & Lightspark:** Remittance payments over Lightning: USD → BTC → MXN
-- **"YOU ARE HERE":** This is a Square merchant map. That pin? That's literally where we are right now. There are 90 merchants within an hour's drive of this conference that accept Bitcoin. The infrastructure is already being built around us.
+- Let's dig a bit deeper on the payments side — I think it's important and often overlooked.
+- **What is Lightning?**
+  - Lightning is a "Layer 2" built on top of Bitcoin that enables real-time payments.
+  - Transactions settle in seconds, fees are fractions of a cent.
+  - This is what makes Bitcoin spendable as everyday money.
+- **The scale:**
+  - Lightning capacity has grown to over $500M in value locked.
+  - Millions of users, billions of dollars in transaction volume annually.
+  - Major wallets like Cash App, Strike, and Coinbase now support it.
+- **"YOU ARE HERE":**
+  - This is a Square merchant map. That pin? That's literally where we are right now.
+  - There are **90 merchants within an hour's drive** of this conference that accept Bitcoin.
+  - Electricians, barbers, restaurants — real businesses, real payments.
+- **Square (November 2025):**
+  - Enabled their **4 million US merchants** to receive Bitcoin payments via Lightning.
+  - **Underreported nuance:** The customer can pay in Bitcoin or dollars. The merchant can receive in Bitcoin or dollars. But the payment moves over the Bitcoin network. Each party uses their preferred currency.
+- **SoFi & Lightspark — a different use case:**
+  - This is fiat-to-fiat using Lightning as the rail.
+  - Sender sends **dollars**. Receiver gets **Mexican pesos**. Bitcoin is the rail on which the value moves.
+  - The customer never touches Bitcoin — but the payment settles instantly over the Lightning Network.
+  - That's the $740 billion remittance market being served on Bitcoin infrastructure.
 
 #### 5. Asset-Backed Lending (Slides 58-59)
+- This is a product bankers understand deeply. Secured lending. Collateral-based credit.
 - **Win for banks:**
-  - Overcollateralized (~50% LTV) with liquid, 24/7-priced collateral
-  - Higher interest rates with lower credit risk
-  - Continuous collateral monitoring
+  - **Overcollateralized:** Typical LTV of ~50%. Customer puts up $200K in Bitcoin, borrows $100K. That's a cushion most of your loan book doesn't have.
+  - **Liquid collateral:** Bitcoin trades 24/7/365 on global markets. You can price it in real time. You can liquidate it in minutes if needed. Try that with real estate or equipment.
+  - **Higher rates, lower risk:** You can charge premium rates because the customer wants to keep their Bitcoin. Meanwhile, your credit risk is de-risked by the collateral buffer.
+  - **Continuous monitoring:** Automated margin calls. If the collateral value drops, you get more collateral or reduce exposure. No waiting for quarterly reviews.
+  - **No appraisals, no inspections, no title searches.** The collateral is sitting in a wallet you control.
 - **Win for customers:**
-  - Access liquidity without selling long-term assets
-  - Borrow from a regulated, trusted counterparty
-  - Avoid opaque or untested counterparties
+  - Access liquidity without triggering a taxable event (selling Bitcoin = capital gains)
+  - Borrow from a regulated, trusted bank — not some offshore platform that might disappear
+  - Keep their long-term Bitcoin position intact while funding short-term needs (home renovation, business expansion, bridge financing)
+- **The opportunity:** Most Bitcoin holders today are borrowing from crypto lenders or not borrowing at all. They *want* to borrow from their bank. They just can't yet.
 
 #### 6. Correspondent Banking (Slides 60-61)
-- Operate Bitcoin banking infrastructure for other banks
-- Institutional custody, exchange, settlement rails
-- Extend distribution using existing compliance capabilities
-- **The Chris Lane insight:** "Tokenized fiat is corresponding banking. Stablecoins are narrow banks. Bitcoin is central banking."
+- This is the big picture opportunity. Let me explain why I saved it for last.
+- **The framework:** Think about how your bank connects to foreign currencies today.
+  - You don't print Japanese yen. You don't run the Bank of Japan.
+  - You maintain a correspondent relationship with a bank that has access to that currency and that central bank.
+  - That's how global banking works. Correspondent relationships.
+- **Here's the insight:** Bitcoin is a monetary network with no central bank. No single issuer. No government.
+  - But it has all the properties of a central bank settlement system: finality, scarcity, 24/7 operation, global reach.
+  - Think of Bitcoin as a **neutral central bank** — one that no country controls, but any country can access.
+- **The Chris Lane framework:** "Tokenized fiat is correspondent banking. Stablecoins are narrow banks. Bitcoin is central banking."
+  - Tokenized fiat (like JPM Coin) — that's just digitizing what already exists. Correspondent banking on new rails.
+  - Stablecoins — they hold reserves, issue liabilities. That's a narrow bank.
+  - Bitcoin — it's the base layer. The reserve asset. The settlement network. That's the central bank function.
+- **What does this mean for your bank?**
+  - You can become a **Bitcoin correspondent** for other banks.
+  - You build the infrastructure: custody, exchange, settlement, compliance.
+  - Smaller banks, credit unions, community banks — they don't want to build this themselves.
+  - They want a trusted partner who's already connected to the Bitcoin network.
+  - Sound familiar? That's exactly how correspondent banking works today for foreign currencies.
+- **The strategic play:**
+  - First-mover banks that build Bitcoin infrastructure become the correspondents.
+  - They extend their distribution using existing compliance capabilities.
+  - Every bank that connects to Bitcoin through you is a relationship, a revenue stream, a moat.
+- **Why this matters:**
+  - The Epoch VC report calls Bitcoin "the ultimate correspondent" — a neutral settlement layer that any bank in the world can access.
+  - No geopolitical risk. No single point of failure. No currency manipulation.
+  - For international settlement, that's transformative.
+- **The question for this room:** Do you want to be the bank that other banks call when they need Bitcoin access? Or do you want to be the one making that call?
 
 ---
 
