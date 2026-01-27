@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* Dark mode overrides */
+/* Dark mode base */
 body {
   background-color: #1e1e1e;
   color: #e6e6e6;
@@ -12,9 +12,28 @@ body {
 a { color: #8ab4f8; }
 a:hover { color: #a7c7ff; }
 
-h1, h2, h3, h4, h5, h6 { color: #f2f2f2; }
+/* Headings */
+h1, h2, h3 {
+  color: #ffffff;
+}
 
+/* Make section headers visible */
+h2 {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #444;
+}
+
+/* Code blocks */
 code, pre {
   background-color: #2a2a2a;
   color: #e6e6e6;
+}
+
+/* Soften GitHub button */
+#view-on-github {
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  font-size: 0.9rem;
 }
