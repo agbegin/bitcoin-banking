@@ -87,3 +87,15 @@ blockquote em {
   color: #a7c7ff;
   text-decoration: underline;
 }
+/* Fix list + emphasis contrast in dark mode */
+ul li,
+ol li {
+  color: #e6e6e6;
+}
+
+ul li strong,
+ul li em,
+ol li strong,
+ol li em {
+  color: #ffffff;
+}
