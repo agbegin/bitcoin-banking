@@ -7,4 +7,4 @@
 
 ## Articles
 - [What Bitcoin’s Mainstream Adoption Means for Banks (Bank Director)](https://www.bankdirector.com/article/what-bitcoins-mainstream-adoption-means-for-banks/)
-- [(WIP) The Final Digital Transformation](https://github.com/agbegin/bitcoin-banking/blob/main/final-digital-transformation.md)
+- [(WIP) The Final Digital Transformation](/final-digital-transformation.html)
