@@ -41,3 +41,11 @@ code, pre {
 #view-on-github {
   display: none !important;
 }
+/* Remove "View the Project on GitHub" block (jekyll-theme-minimal) */
+header p a[href*="github.com"] {
+  display: none !important;
+}
+
+header p {
+  display: none !important;
+}
