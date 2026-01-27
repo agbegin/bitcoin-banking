@@ -73,3 +73,17 @@ blockquote strong,
 blockquote em {
   color: #ffffff;
 }
+
+/* Back link on sub-pages */
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: #8ab4f8;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: #a7c7ff;
+  text-decoration: underline;
+}
