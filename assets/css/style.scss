@@ -99,3 +99,20 @@ ol li strong,
 ol li em {
   color: #ffffff;
 }
+/* Fix highlighted / selected text contrast in dark mode */
+::selection {
+  background: rgba(138, 180, 248, 0.35);
+  color: #ffffff;
+}
+
+mark {
+  background: rgba(138, 180, 248, 0.35);
+  color: #ffffff;
+}
+
+.highlight,
+.highlight *,
+.selected,
+.selected * {
+  color: #ffffff;
+}
