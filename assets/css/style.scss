@@ -37,3 +37,7 @@ code, pre {
   padding: 0 !important;
   font-size: 0.9rem;
 }
+/* Remove "View the Project on GitHub" block */
+#view-on-github {
+  display: none !important;
+}
