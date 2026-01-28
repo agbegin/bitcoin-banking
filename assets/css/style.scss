@@ -116,3 +116,17 @@ mark {
 .selected * {
   color: #ffffff;
 }
+/* Fix bold/italic text being too dark (global) */
+strong, b {
+  color: #ffffff !important;
+}
+
+em, i {
+  color: #e6e6e6 !important;
+}
+
+/* Also ensure highlighted/selected bold text stays readable */
+mark strong, mark b,
+.highlight strong, .highlight b {
+  color: #ffffff !important;
+}
