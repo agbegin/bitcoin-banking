@@ -34,36 +34,36 @@ To be fair, internet-native money didn’t exist until 2009, when Bitcoin was in
 
 But the time has arrived.
 
-Whether this transformation looks like a gradual, evolutionary digital transformation—or more like a creative-destruction event—remains to be seen. What *is* clear is that the global financial system is likely to change more in the next 10 years than it has in the past 100.
+Whether this transformation looks like a gradual, evolutionary digital transformation—or more like a creative-destruction event—remains to be seen. What *is* clear (IMHO) is that the global financial system is likely to change more in the next 10 years than it has in the past 100.
 
 This article covers the forces reshaping money, banking, and the broader financial system, including:
 
-- Bitcoin  
-- Stablecoins  
+- Bitcoin
+- Stablecoins
+- Regulation
+- Legacy infrastructure
 - AI  
-- Core banking systems  
-- Regulation  
 
 ---
 
 ## Force 1: Bitcoin’s steady march 
 
-> “Bitcoin changes absolutely everything.”  
-> — Jack Dorsey, 2021
+> "Bitcoin changes absolutely everything."
+> — Jack Dorsey
 
 Bitcoin’s creation disrupted the banking system at the base layer. It introduced a way to transmit value globally in minutes, without a counterparty. It also created the world’s first asset with a finite supply and a predetermined issuance schedule.
 
 The magnitude of this change is hard to overstate.
 
-With Bitcoin—and layer-two networks built on top of it—eight billion people can now:
+With Bitcoin—and layer-two networks built on top of it—billions of people can now:
 
 - Send and receive billions—or cents—instantly to anyone in the world  
-- Self-custody a bearer asset that cannot be inflated  
+- Self-custody a bearer asset that cannot be inflated by central bank policy  
 - Accept payments at point of sale or online with ~10× lower fees than credit cards  
 - Obtain dollar loans by posting bitcoin as collateral (asset-backed lending)  
 - Distribute private keys across multiple stakeholders to manage risk  
 
-Because Bitcoin and Lightning are open networks, these capabilities are accessible to anyone. A farmer in El Salvador and a president have the same rights on the Bitcoin network.
+Because Bitcoin and Lightning are open networks, these capabilities are accessible to anyone. A farmer in El Salvador and the president of a G7 nation have the same rights on the Bitcoin network.
 
 As adoption and development continue, the properties that make Bitcoin unique are being recognized—from the most marginalized communities to the world’s largest institutions.
 
@@ -71,9 +71,9 @@ As adoption and development continue, the properties that make Bitcoin unique ar
 
 ### Why Bitcoin is "bulletproof" money
 
-Banking, paper currency, and double-entry bookkeeping were created to facilitate commerce. Combined with the printing press and the telegraph, paper receipts made gold more divisible and portable.
+Early banking emerged from institutions like temples, monasteries, and goldsmiths—trusted intermediaries who could hold and transfer value. Banking, paper currency, and double-entry bookkeeping were created to facilitate commerce. Combined with the printing press and the telegraph, paper receipts made gold more divisible and portable.
 
-For 17th-century merchants who would otherwise ship gold across oceans, these systems provided safety, reliability, and efficiency. Early banking emerged from institutions like temples, monasteries, and goldsmiths.
+For 17th-century merchants who would otherwise ship gold across oceans, these systems provided safety, reliability, and efficiency.
 
 Those innovations evolved into today's global financial services industry, now generating more than **$30 trillion** in annual revenue. But the core logic remains largely unchanged: trusted intermediaries reconciling ledgers.
 
@@ -81,7 +81,7 @@ Bitcoin's innovation is simple: a shared ledger that doesn't need reconciliation
 
 Like brick-and-mortar retailers in the early 2000s, banks face a choice: adapt to the new infrastructure or cede ground to those who will.
 
-Disruptive technology is hard to recognize in its early stages. But to grasp the magnitude of what's possible, consider Bitcoin as an alternative to gold and fiat money.
+Disruptive technology is hard to recognize in its early stages. At the time of this writing, Bitcoin's total market cap is approximately 15% of gold's. But to grasp the magnitude of what's possible, consider Bitcoin as an alternative to gold and fiat money.
 
 ![Bitcoin vs Gold vs Fiat comparison across monetary properties](https://github.com/agbegin/bitcoin-banking/blob/main/bitcoin-first-revisited-graphic-fidelity.png?raw=true)
 *Source: Fidelity Digital Assets*
@@ -96,37 +96,42 @@ For a deeper look, see Fidelity's [Bitcoin First Revisited](https://www.fidelity
 
 Stablecoins—digital tokens pegged to fiat currencies like the U.S. dollar—emerged to solve a practical problem: crypto traders needed a way to hold stable value without moving money back into bank accounts.
 
-That use case exploded. Stablecoins became the default way to park value in the crypto ecosystem—and then something else happened. People in countries with failing currencies discovered they could hold dollars digitally, outside their local banking system. In Argentina, Turkey, Nigeria, and Venezuela, stablecoins became a lifeline—a way to preserve purchasing power when local currency couldn't.
+That use case exploded. Stablecoins became the default way to park value in the crypto ecosystem. Soon, other groups took notice. People in countries with failing currencies discovered they could hold dollars digitally, outside their local banking system. In Argentina, Turkey, Nigeria, and Venezuela, stablecoins became a lifeline—a way to preserve purchasing power when local currency couldn't.
 
-The stablecoin market now exceeds **$200 billion**. Tether and Circle hold more U.S. Treasury securities than many countries. What started as crypto plumbing has become systemically important.
+The stablecoin market has surpassed **$300 billion**. Tether and Circle hold more U.S. Treasury securities than many countries. What started as crypto plumbing has become systemically important.
 
-In parallel, banks have begun exploring tokenized deposits—bringing existing bank liabilities onto programmable blockchain infrastructure. While stablecoins emerged from crypto, tokenized deposits start from the banking side. Both aim to make fiat move faster.
+In parallel, banks are actively building and testing tokenized deposits—bringing existing bank liabilities onto programmable blockchain infrastructure. While stablecoins emerged from crypto, tokenized deposits start from the banking side. Both aim to make fiat move faster.
 
 ### The U.S. clears a path
 
 In June 2025, the GENIUS Act was passed through Congress, providing a U.S. federal framework for dollar-backed stablecoins: who can issue them, how reserves must be held, and which regulators are in charge. 
 
 The benefit of a U.S. regulated stablecoin market is two-fold, from a policy perspective:
-1. Faster, cheaper payments.  
+1. Faster, cheaper payments for U.S. individuals and businesses
 2. Demand for U.S. Treasuries
 
-While high speed and low cost are universally popular benefits, the U.S. appetite for stablecoins goes beyond simple technology mindedness. Stablecoin issuers hold their reserves primarily in U.S. Treasuries—Tether alone holds more than most countries. A regulated stablecoin market means sustained demand for U.S. debt and an extension of dollar dominance. Which, per Larry Fink, is not guaranteed. In his 2025 Chairman's Letter to Shareholders, Fink writes: 
+While high speed and low cost are universally popular benefits, the U.S. appetite for stablecoins goes beyond simple technology-mindedness. Stablecoin issuers hold their reserves primarily in U.S. Treasuries—Tether alone holds more than most countries. A regulated stablecoin market means sustained demand for U.S. debt and continued dollar dominance in a world where money is increasingly digital.
 
-"If the U.S. doesn’t get its debt under control, if deficits keep ballooning, America risks losing that position to digital assets like Bitcoin."
+The stakes are high. As Larry Fink wrote in his 2025 Chairman's Letter:
 
-For policymakers, stablecoins offer a way to keep the dollar relevant as money goes digital. For banks, the policy questions hit closer to home: Who can issue stablecoins? What reserves must they hold? And critically—should stablecoins be allowed to pay yield?
+> "If the U.S. doesn't get its debt under control, if deficits keep ballooning, America risks losing that position to digital assets like Bitcoin."
 
-That last question is still under active scrutiny. If stablecoins can pay interest, they compete directly with deposit accounts. If they can't, they remain a payments tool rather than a savings product. The outcome will shape whether stablecoins complement banks or compete with them.
+Stablecoins offer policymakers a way to keep the dollar relevant as money goes digital.
+
+For banks, one policy question hits closer to home: should stablecoins be allowed to pay yield?
+
+That question is still under active scrutiny. If stablecoins can pay interest, they compete directly with deposit accounts. If they can't, they remain a payments tool rather than a savings product. The outcome will shape whether stablecoins complement banks or compete with them.
 
 ### The bigger picture
 
-Stablecoins and tokenized assets bring the speed and programmability of blockchain networks to the money and financial products we all use on a daily basis. A bank that can settle cross-border payments in minutes rather than days – whether over stablecoin rails or the bitcoin network – has a real advantage. Now that regulatory headwinds are turning into headwinds, the competition between payment rails of the future has truly begun.
+Stablecoins and tokenized assets bring the speed and programmability of blockchain networks to the money and financial products we all use on a daily basis. A bank that can settle cross-border payments in minutes rather than days – whether over stablecoin rails or the bitcoin network – has a real advantage. Now that regulatory headwinds are turning into tailwinds, the competition between payment rails of the future has truly begun.
 
 ---
 
 ## Force 3: Regulatory whiplash
 
-"In my 34 years across multinational banks, leading fintechs, and leading consultancy, I've never seen regulatory clarity arrive this fast." — Robert Mancini, SRA Consultants
+> "In my 34 years across multinational banks, leading fintechs, and leading consultancy, I've never seen regulatory clarity arrive this fast."
+> — Robert Mancini, SRA Consultants
 
 For years, U.S. regulators maintained what critics called "Operation Chokepoint 2.0"—an unofficial but coordinated effort to limit banking access for cryptocurrency companies. Banks that explored bitcoin custody or stablecoin services faced intense scrutiny. Guidance across the board discouraged financial institutions from touching bitcoin and crypto. 
 
@@ -134,22 +139,19 @@ In May 2024, Congress passed a bipartisan resolution to overturn SEC guidance (S
 
 In 2025, U.S. regulators moved rapidly and in coordination, rescinding SAB 121, withdrawing prior banking guidance, clarifying custody and execution rules, passing the GENIUS Act, and ultimately launching a digital assets pilot. The timeline below highlights some key moments. (Full list at tools.galoy.io/regs) 
 
-[ regulation visual]
+![Regulatory timeline for Bitcoin and crypto in 2025](https://github.com/agbegin/bitcoin-banking/blob/main/regulatory-timeline-bitcoin-2025.png?raw=true)
 
-At the time of writing, the CLARITY Act (market structure bill) is under active debate in Congress. And GENIUS Act is still here in the form of an active debate about whether, or when, stablecoin holders can earn yield. But as PwC’s Matt Blumenthal signed off the foreward for this year's Global Crypto Regulation Report: 
+At the time of writing, the CLARITY Act (market structure bill) has passed the House and cleared the Senate Agriculture Committee—the first time a crypto market structure bill has advanced beyond a Senate committee. The debate over stablecoin yield under GENIUS continues. But as PwC's Matt Blumenthal signed off the foreword for this year's Global Crypto Regulation Report:
 
-"Regulation is no longer shaping crypto from the outside.
-It is being pulled into place by market reality."
+> "Regulation is no longer shaping crypto from the outside. It is being pulled into place by market reality."
 
-[ pwc quote visual]
+![PwC Global Crypto Regulation Report 2026 quote](https://github.com/agbegin/bitcoin-banking/blob/main/pwc-crypto-regulation-report-2026.png?raw=true)
 
 ### A surge in bank charter approvals
 
-The regulatory shift expands beyond 
+The regulatory shift extends beyond crypto policy. In December 2025, the OCC conditionally approved five digital asset firms for national trust bank charters: Circle, Ripple, BitGo, Fidelity Digital Assets, and Paxos. The OCC received 14 de novo charter applications in 2025 alone—nearly equal to the previous four years combined.
 
-Fintech companies that spent a decade avoiding bank charters are now pursuing them. SoFi obtained a national bank charter in 2022. Revolut has applied in the U.S. and U.K. Figure Technologies received conditional approval for a de novo national bank in 2024.
-
-At the same time, stablecoin issuers are seeking state trust company licenses and bank charters to access Federal Reserve payment rails. Proposed federal stablecoin legislation would create new regulatory pathways.
+The applicants span industries. Fintechs like Mercury and Revolut are pursuing full bank charters. Defense-tech founder Palmer Luckey's Erebor Bank received conditional approval with backing from Founders Fund and 8VC. Even automakers have entered the fray, with GM Financial and Toyota Financial exploring banking licenses to support vehicle financing and payments.
 
 The competitive landscape is being redrawn.
 
@@ -164,57 +166,13 @@ For banks willing to move, the window is open—but it won't stay open forever. 
 ---
 
 
-## Force 4: AI favors the nimble
-
-The research that led to today's AI has been underway for decades. But sometime around late 2025, something shifted.
-
-Andrej Karpathy—one of the architects of modern AI, former head of AI at Tesla—described it this way:
-
-> "This is easily the biggest change to my basic coding workflow in ~2 decades of programming and it happened over the course of a few weeks... LLM agent capabilities have crossed some kind of threshold of coherence and caused a phase shift."
-
-This is the "suddenly" part of "gradually, then suddenly." AI capabilities that seemed perpetually five years away are now here—and improving monthly.
-
-For banks, this creates a stark divide. Institutions built on modular, API-driven infrastructure can deploy AI to reduce costs and accelerate decision-making. Those trapped in rigid, legacy architectures cannot.
-
-AI does not just reward scale—it rewards adaptability.
-
-### The automation gap
-
-Consider two banks processing the same loan application.
-
-**Bank A** operates on a 40-year-old core with batch processing, siloed data, and custom COBOL integrations. Adding AI requires months of vendor negotiations, middleware development, and regulatory review. By the time a pilot launches, the model is outdated.
-
-**Bank B** runs on a modern, API-first core. Customer data flows through standardized interfaces. Within weeks, AI agents are triaging applications, flagging fraud patterns, and generating compliance documentation. The cost per loan drops by 60%.
-
-This gap will only widen.
-
-### Where AI hits hardest
-
-The financial services tasks most vulnerable to AI disruption share common traits: they're repetitive, rule-based, and documentation-heavy.
-
-- **Underwriting and credit decisions** — Pattern recognition across thousands of data points
-- **Compliance and reporting** — Automated monitoring, flagging, and documentation
-- **Customer service** — Natural language interfaces handling routine inquiries
-- **Fraud detection** — Real-time anomaly detection at scale
-- **Back-office reconciliation** — Matching transactions across systems
-
-Banks that can plug AI into these workflows will operate at a fraction of the cost. Banks that can't will subsidize their inefficiency through higher fees—until customers leave.
-
-### The talent problem
-
-There's a second-order effect worth noting. The engineers capable of building AI-native financial systems are not choosing to work at banks with legacy infrastructure. They're joining fintechs, crypto companies, and tech firms where they can ship products in weeks, not years.
-
-This creates a self-reinforcing cycle: legacy systems repel modern talent, which slows modernization, which further entrenches legacy systems.
-
-The banks that break this cycle will have an asymmetric advantage.
-
----
-
-## Force 5: The drag of legacy infrastructure
+## Force 4: The drag of legacy infrastructure
 
 By now, most industries have rebuilt themselves from the ground up—internet-native, cloud-first, API-driven. Banking, largely, is still running on infrastructure designed before the internet existed.
 
 In 2016, Forrester analyst Jost Hoppermann reported that **81% of banks** were undergoing or planning a major core transformation. A decade later, modernization has proven more difficult than expected. Core conversions are so complex, risky, and expensive that **~75% of banks still operate on legacy platforms**.
+
+![Forrester 2016: 81% of banks undergoing or planning major core transformation](https://github.com/agbegin/bitcoin-banking/blob/main/forrester-2016-major-transformation-jost-hopperman.png?raw=true)
 
 ### The oligopoly problem
 
@@ -223,6 +181,7 @@ The core banking market is dominated by three firms. All were founded between th
 Consider the reactions to one major provider's 2025 "modern core" announcement:
 
 > "Is this a real next-gen core, or another 'freeze the market' announcement?"
+
 > "Are they building a Frankencore from zombie systems?"
 
 It doesn't help that these vendors are as trapped as their clients. Decades of accumulated systems, processes, and integrations can't simply be ported to modern architectures—the lift is often comparable to building from scratch. That's opened a window for a new generation of cloud-native core providers unburdened by the past, built for a world of event sourcing, APIs, and AI from day one.
@@ -239,7 +198,7 @@ Each integration adds complexity. Data flows through multiple systems. Customer 
 
 ### The path forward
 
-Jost Hoppermann, now at The Angry Rabbit Group, argues banks must abandon one-time transformations and instead adopt continuously evolving architectures—unbundling from legacy systems while staying nimble as requirements change.
+Jost Hoppermann, now at [The Angry Rabbit Group](https://www.angryrabbitgroup.com/), argues banks must abandon one-time transformations and instead adopt continuously evolving architectures—unbundling from legacy systems while staying nimble as requirements change.
 
 Regardless of path or timeline, banks need infrastructure that's ready for what's coming. That means systems built on:
 
@@ -253,11 +212,57 @@ Banks that invest now will be better positioned for whatever comes next.
 
 ---
 
+## Force 5: AI accelerates everything
+
+The infrastructure gap described above has existed for years. What's changed is the accelerant: AI.
+
+The research that led to today's AI has been underway for decades. But sometime around late 2025, something shifted.
+
+Andrej Karpathy—one of the architects of modern AI, former head of AI at Tesla—described it this way:
+
+> "This is easily the biggest change to my basic coding workflow in ~2 decades of programming and it happened over the course of a few weeks... LLM agent capabilities have crossed some kind of threshold of coherence and caused a phase shift."
+
+Just this week, people around the world are watching in awe as a group of self-directed AI agents set up their own social networks, make bitcoin payments, and coordinate tasks without human intervention. To go deeper, ask your favorite LLM about the "moltbot" phenomenon unfolding in real time.
+
+This is the "suddenly" part of "[gradually, then suddenly](https://www.oreilly.com/radar/gradually-then-suddenly/)." AI capabilities that seemed perpetually five years away are now here—and improving weekly.
+
+For banks, this creates a stark divide. Institutions built on modular, API-driven infrastructure can deploy AI to reduce costs and accelerate decision-making. Those trapped in rigid, legacy architectures cannot.
+
+AI does not just reward scale—it rewards adaptability.
+
+### The automation gap
+
+Consider two banks processing the same loan application.
+
+**Bank A** operates on a 40-year-old core with batch processing, siloed data, and custom COBOL integrations. Adding AI requires months of vendor negotiations, middleware development, and regulatory review. By the time a pilot launches, the model is outdated.
+
+**Bank B** runs on a modern, API-first core. Customer data flows through standardized interfaces. Within weeks, AI agents are triaging applications, flagging fraud patterns, and generating compliance documentation. The cost per loan drops dramatically.
+
+This gap will only widen.
+
+### Where AI hits hardest
+
+The financial services tasks most vulnerable to AI disruption share common traits: they're repetitive, rule-based, and documentation-heavy.
+
+- **Underwriting and credit decisions** — Pattern recognition across thousands of data points
+- **Compliance and reporting** — Automated monitoring, flagging, and documentation
+- **Customer service** — Natural language interfaces handling routine inquiries
+- **Fraud detection** — Real-time anomaly detection at scale
+- **Back-office reconciliation** — Matching transactions across systems
+
+Banks that can plug AI into these workflows will operate at a fraction of the cost—creating real pressure on those still waiting to modernize.
+
+### The talent problem
+
+There's a second-order effect worth noting. Engineers who can build AI-native financial systems will gravitate toward fintechs, crypto companies, and tech firms—environments where they can ship products in weeks, not years. This creates a self-reinforcing cycle: legacy systems repel modern talent, which slows modernization, which further entrenches legacy systems. Banks that break this cycle will be better positioned to compete.
+
+---
+
 ## The convergence
 
-These five forces—bitcoin, stablecoins, AI, regulatory evolution, and legacy infrastructure decay—are not independent trends. They're mutually reinforcing.
+These five forces—bitcoin, stablecoins, regulatory evolution, legacy infrastructure decay, and AI—are not independent trends. They're mutually reinforcing.
 
-Bitcoin and stablecoins create new rails for value transfer. AI makes it possible to build and operate financial services at radically lower cost. Regulatory shifts open the door for new entrants. And legacy infrastructure becomes the bottleneck that determines who can move fast enough to capitalize.
+Bitcoin and stablecoins create new rails for value transfer. Regulatory shifts open the door for new entrants. Legacy infrastructure becomes the bottleneck that determines who can move fast enough to capitalize. And AI accelerates all of it—widening the gap between those who can adapt and those who cannot.
 
 The banks that thrive in this environment will share certain characteristics:
 
@@ -266,8 +271,6 @@ The banks that thrive in this environment will share certain characteristics:
 - **Digital asset fluency** across custody, payments, and lending
 - **Modern infrastructure** that can integrate new capabilities quickly
 - **AI fluency** to reduce costs and improve decisions
-
-The banks that struggle will be those that treat digital assets as a regulatory risk to be avoided, AI as a future project, and core modernization as a problem for the next CEO.
 
 ---
 
@@ -283,9 +286,7 @@ The "final" digital transformation isn't just about upgrading systems—it's abo
 
 This changes what a bank is, what a bank does, and who gets to be a bank.
 
-As Anthony Noto, CEO of SoFi, put it:
-
-> "60% of our members would like to have cryptocurrency offered from someone like SoFi that is a nationally licensed bank… Our bank license is now useful not just to take deposits that are insured and lend them, but to provide a very safe and reliable way to buy and sell cryptocurrencies."
+The demand is already here. SoFi CEO Anthony Noto noted that 60% of their members want cryptocurrency services from a nationally licensed bank—a signal that customers are ready for institutions they trust to offer digital assets.
 
 The question facing every banking leader is not whether this transformation will happen—it's whether their institution will lead it, follow it, or be replaced by it.
 
